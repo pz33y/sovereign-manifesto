@@ -1,0 +1,9 @@
+[build]
+publish = "dist"
+command = "npm run build"
+
+[dev]
+port = 8888
+
+[build.environment]
+NODE_VERSION = "14.x"
